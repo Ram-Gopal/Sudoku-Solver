@@ -498,7 +498,6 @@ var utils = (() => {
       if (infoLevel === 'full') {
         return `
           <p class='${className || ''}'>
-            ${technical} ${description}
           </p>
         `;
   
