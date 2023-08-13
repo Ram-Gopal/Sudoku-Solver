@@ -31,7 +31,7 @@ html, body {
 
 body {
   margin: 0;
-  background: #f0f0f0;
+  background: #aec5c8;
 }
 
 @media (max-width: 260px) {
@@ -190,47 +190,62 @@ body {
   border: 1px solid;
   font-weight: normal;
   border-radius: 3px;
-  background: none;
+  background: #bcd0da;
   box-shadow: none;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  color: #fff;
 }
+
 .button--primary {
-  color: #4242d7;
-  font-weight: 600;
+  color: #26a7b3;
+  font-weight: bold;
+  
 }
+
 .button--primary:hover, .button--primary:focus, .button--primary:active {
-  border-color: #4242d7;
-  background: #4242d7;
+  border-color: #066489;
+  background: #034692;
 }
+
 .button--primary:focus {
-  box-shadow: 0 0 5px #4242d7;
+  box-shadow: 0 0 5px #f39c12;
 }
+
 .button--secondary {
-  color: #d74242;
+  color: #e74c3c;
+  font-weight: bold;
 }
+
 .button--secondary:hover, .button--secondary:focus, .button--secondary:active {
-  border-color: #d74242;
-  background: #d74242;
+  border-color: #e74c3c;
+  background: #e74c3c;
 }
+
 .button--secondary:focus {
-  box-shadow: 0 0 5px #d74242;
+  box-shadow: 0 0 5px #e74c3c;
 }
+
 .button--tertiary {
   color: #fff;
-  border-color: #2ECC40;
-  background: #2ECC40;
+  border-color: #27ae60;
+  background: #27ae60;
 }
+
 .button--neutral {
+  /* color: #555; */
   color: #333;
 }
+
 .button--neutral:hover, .button--neutral:focus, .button--neutral:active {
-  border-color: #333;
-  background: #333;
+  border-color: #555;
+  background: #555;
 }
+
 .button--neutral:focus {
-  box-shadow: 0 0 5px #333;
+  box-shadow: 0 0 5px #555;
 }
+
 .button--compound {
   border-radius: 0;
   border-right: none;
@@ -293,6 +308,7 @@ body {
   }
   .sudoku__header {
     padding-bottom: 0.6em;
+    text-align: center;
   }
   .sudoku__title {
     font-size: 1em;
@@ -332,6 +348,7 @@ body {
   }
   .sudoku__header {
     padding-bottom: 0.9em;
+    text-align: center;
   }
   .sudoku__title {
     font-size: 1.2em;
@@ -370,6 +387,7 @@ body {
   }
   .sudoku__header {
     padding-bottom: 1.3em;
+    text-align: center;
   }
   .sudoku__title {
     font-size: 1.5em;
@@ -408,6 +426,7 @@ body {
   }
   .sudoku__header {
     padding-bottom: 1.618em;
+    text-align: center;
   }
   .sudoku__title {
     font-size: 2em;
